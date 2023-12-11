@@ -13,7 +13,7 @@ const UpdateObject = ({ match }) => {
     const fetchUserDetails = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/users/${userId}`
+          `https://testing-backend-i1v6.onrender.com/api/users/${userId}`
         );
         if (response.ok) {
           const data = await response.json();

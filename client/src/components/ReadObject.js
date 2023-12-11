@@ -6,7 +6,7 @@ const ReadObject = () => {
     useEffect(() => {
     const fetchUsers = async () => {
         try {
-        const response = await fetch('http://localhost:3000/api/users');
+        const response = await fetch('https://testing-backend-i1v6.onrender.com/api/users');
         if (response.ok) {
             const data = await response.json();
             setUsers(data.data);

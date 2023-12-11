@@ -23,7 +23,7 @@ const SignUp = () => {
       setLoading(true);
 
       // Send signup data to the server
-      const response = await fetch('http://localhost:8080/api/users', {
+      const response = await fetch('https://testing-backend-i1v6.onrender.com/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
