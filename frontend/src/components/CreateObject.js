@@ -15,7 +15,7 @@ const CreateObject = () => {
     e.preventDefault();
 
     try {
-        const response = await fetch('http://localhost:3000/api/users', {
+        const response = await fetch('https://testing-backend-i1v6.onrender.com/api/users', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

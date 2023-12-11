@@ -7,7 +7,7 @@ const UserList = () => {
 
   useEffect(() => {
     // Fetch user data from the API
-    fetch("http://localhost:8080/api/users")
+    fetch("https://testing-backend-i1v6.onrender.com/api/users")
       .then((response) => response.json())
       .then((data) => {
         if (data.status && data.data) {
